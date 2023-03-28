@@ -1,0 +1,294 @@
+/* Add background color to the hero section */
+#hero-section {
+    background-color: #F7CAC9;
+  }
+
+  body
+  {
+    background-color: #f7e6cf;
+    
+  }
+  
+
+
+  /* Style the navbar links */
+.navbar-nav .nav-link {
+  color: #fff; /* Set link color to white */
+  font-family: 'Roboto', sans-serif; /* Set font family */
+  font-size: 18px; /* Set font size */
+}
+
+/* Style the brand name */
+.navbar-brand {
+  color: #ff8c00; /* Set brand name color to orange */
+  font-family: 'Montserrat', sans-serif; /* Set font family */
+  font-size: 28px; /* Set font size */
+  font-weight: bold; /* Set font weight to bold */
+  text-transform: uppercase; /* Set text to uppercase */
+  
+}
+
+/* Style the navbar background */
+.navbar {
+  background-color: #f8f9fa!important; /* Set background color to dark red */
+}
+
+/* Add hover effect to navbar links */
+/* .navbar-nav .nav-link:hover {
+  color: #ff8c00; /* Set hover color to orange */
+
+
+/* Add animation keyframe */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add animation to all images */
+img {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Define the animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+  /* Style the heading in the hero section */
+  #hero-section h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+
+  #hero-section img:hover{
+      transform: scale(1.1);
+      transition: transform 0.5s ease-in-out;
+
+  }
+  
+  
+  /* Add animation to the heading in the hero section */
+  #hero-section h1 {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(2rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+ 
+  /* Style the button in the hero section */
+  #hero-section .btn-primary {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  /* Add animation to the button in the hero section */
+  #hero-section .btn-primary {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Style the featured products section */
+  #featured-section {
+    background-color: #f7e6cf;
+  
+  }
+  
+  /* Style the heading in the featured products section */
+  #featured-section h2 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Add animation to the heading in the featured products section */
+  #featured-section h2 {
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  /* Style the card in the featured products section */
+  #featured-section .card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Add animation to the card in the featured products section */
+  #featured-section .card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the card title in the featured products section */
+  #featured-section .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Style the card text in the featured products section */
+  #featured-section .card-text {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the buy now button in the featured products section */
+  #featured-section .btn-primary {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  /* Add animation to the buy now button in the featured products section */
+  #featured-section .btn-primary:hover {
+    transform: translateY(-0.1rem);
+    background-color: #222;
+    border-color: #222;
+  }
+
+  #featured-section img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+  
+}
+  
+
+  
+  .featured-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .featured-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animation for featured section */
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .featured-card {
+    opacity: 0;
+    animation: fade-in 0.6s ease-in-out forwards;
+    animation-delay: calc(var(--anim-order) * 0.2s);
+  }
+  
+  /* Styling for buttons */
+  .btn-primary {
+    background-color: #f59f0b;
+    border-color: #f59f0b;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d97706;
+    border-color: #d97706;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(245, 159, 11, 0.5);
+  }
+  
+  #featured-section {
+    /*background: linear-gradient(to right, #FF69B4, #00FFFF);*//* Set a gradient background */
+    animation: bg-animation 5s ease-in-out infinite alternate; /* Add an animation to the background */
+  }
+  
+  @keyframes bg-animation {
+    from {
+      background-position: left; /* Start the gradient from the left */
+    }
+    to {
+      background-position: right; /* End the gradient at the right */
+    }
+  }
+  
+
+  /* footer */
+
+  footer {
+    margin-top: 7%;
+    background-color: #a6a6a6;
+  }
+  
+  footer h4 {
+    padding-top: 10px;
+    color: #303030;
+    font-size: 1.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+  
+  footer a {
+    color: #0e0000;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  
+  footer ul li a {
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #fff;
+  }
+  
+  @media (max-width: 767.98px) {
+    footer {
+      text-align: center;
+    }
+  }
+  
+
+  /* about section css */
+  #about-section img {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #about-section img:hover {
+    transform: scale(1.1);
+  }
+  
